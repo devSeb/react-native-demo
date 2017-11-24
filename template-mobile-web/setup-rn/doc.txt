@@ -1,0 +1,13 @@
+cd android && ./gradlew clean
+
+
+mkdir setup-rn
+cd setup-rn && npm init setup-rn
+
+npm install --save-dev webpack webpack-dev-server react react-dom react-native-web babel babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-0
+npm install --save react react-dom react-native-web
+
+react-native init AwesomeProject
+
+add skd android  + set environment variable for windows + adb devices
+Android\Sdk\platform-tools
