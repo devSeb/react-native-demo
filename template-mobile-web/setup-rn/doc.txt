@@ -11,3 +11,5 @@ react-native init AwesomeProject
 
 add skd android  + set environment variable for windows + adb devices
 Android\Sdk\platform-tools
+
+https://medium.com/@naqvitalha/react-native-web-setup-with-live-reload-on-both-at-the-same-time-657a99ac521a

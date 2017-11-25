@@ -1,1 +1,1 @@
-document.write(require("./AwesomeProject/index.js"));
+document.write(require("./LibProject/index.js"));
