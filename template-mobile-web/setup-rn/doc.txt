@@ -12,6 +12,8 @@ react-native init AwesomeProject
 add skd android  + set environment variable for windows + adb devices
 Android\Sdk\platform-tools
 
+adb reverse tcp:8081 tcp:8081
+
 https://auth0.com/blog/adding-authentication-to-react-native-using-jwt/
 
 https://medium.com/@naqvitalha/react-native-web-setup-with-live-reload-on-both-at-the-same-time-657a99ac521a
