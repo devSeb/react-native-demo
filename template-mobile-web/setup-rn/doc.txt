@@ -17,7 +17,14 @@ adb reverse tcp:8081 tcp:8081
 https://auth0.com/blog/adding-authentication-to-react-native-using-jwt/
 
 https://medium.com/@naqvitalha/react-native-web-setup-with-live-reload-on-both-at-the-same-time-657a99ac521a
+
+1er command : Run adb reverse tcp:8081 tcp:8081
+2eme command : react-native run-android
+
 https://github.com/fullstackreact/react-native-oauth
 https://medium.com/@alexmngn/the-essential-boilerplate-to-authenticate-users-on-your-react-native-app-f7a8e0e04a42
 
 https://scotch.io/tutorials/react-native-app-with-authentication-and-user-management-in-15-minutes
+
+https://github.com/lwansbrough/react-native-camera/issues/303#issuecomment-347831979
+https://github.com/lwansbrough/react-native-camera/issues/1005
