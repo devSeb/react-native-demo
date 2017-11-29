@@ -17,10 +17,16 @@
     "babel-preset-es2015-webpack": "^6.4.3",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "react": "^15.4.0",
-    "react-dom": "^15.4.0",
     "react-native-web": "^0.1.14",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "code-point-at": "^1.1.0",
+    "has-flag": "^2.0.0",
+    "is-fullwidth-code-point": "^2.0.0",
+    "is-utf8": "^0.2.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
