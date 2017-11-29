@@ -5,9 +5,12 @@
  */
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   Platform,
   StyleSheet,
+  Dimensions,
+  TouchableHighlight,
   Text,
   View
 } from 'react-native';
@@ -20,11 +23,13 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component<{}> {
+
   render() {
     return (
       <View style={styles.container}>
+
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native! coucoum
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
@@ -54,4 +59,17 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  preview: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    alignItems: 'center'
+  },
+  capture: {
+    flex: 0,
+    backgroundColor: '#fff',
+    borderRadius: 5,
+    color: '#000',
+    padding: 10,
+    margin: 40
+  }
 });
